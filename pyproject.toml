@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyproject"
+version = "0"
+description = "F1 Data Analysis"
+authors = ["Boustique <soufiane.boustique00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastf1 = "^3.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
